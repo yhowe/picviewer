@@ -6,6 +6,6 @@ ifdef BT_DEBUG
 CXXFLAGS += -DBT_DEBUG
 endif
 endif
-CXXFLAGS+=-Ofast
+CXXFLAGS+=-Ofast -DAPP_TEXTSIZE2=1
 
 include $(IDF_PATH)/make/project.mk
